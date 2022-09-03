@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color:#54BAB9;
+}
+.navbar{
+    display: flex;                          /* untuk menjadikan object itu kesamping */ 
+    min-height: 50px;                       /* untuk melebarkan kotak navigasi bar */
+    justify-content: space-between;         /* mengatur tulisan ke tengah-tengah pada navbar */
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.container{                                 
+    max-width: 1200px;                      /* mengatur ukuran pembungkus nav bar*/
+    margin: auto;                           /* mengatur tulisan ke tengah-tengah pada navbar */
+}
+a{
+    text-decoration: none;                  /* mengatur agar tidak ada garis bawah */
+    padding: 10px;                          /* mengatur spasi antar tulisan */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+a:hover{
+    color:greenyellow;
+}
+
+/*--- Jumbotron --*/
+.jumbotron{
+    background-color: #F7ECDE;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.jumbotron img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+/*--- About Me --- */
+.aboutme h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.paragraph{
+    display: flex;
+    justify-content: space-around;
+}
+.col-2{ 
+    width: 500px;
+}
+.col-2 p{
+    text-align: justify;
+} 
+
+/*--- My Project --- */
+.myproject{
+    padding-top: 30px;
+    background-color: aquamarine;
+}
+.myproject h1{
+    text-align: center;    
+}
+.row{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.col-3{
+    width: 200px;
+    flex-basis: 30%;
+}
+.col-3 img{
+    width: 100%;
+}
+.contactme{
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    padding: 50px;
+    margin:auto;
+}
+.contactme h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.group-input{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
